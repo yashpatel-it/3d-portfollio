@@ -1,0 +1,65 @@
+{
+  "profile": {
+    "name": "Yash Patel",
+    "shortName": "Yash",
+    "tagline": "I Am Yash Patel",
+    "role": "Software Developer",
+    "specialization": "Python · Java · AI",
+    "location": "Mehsana, India",
+    "yearsOfExperience": "Fresher",
+    "bio": "The Pet Care Website was a fully functional project developed during my internship, aimed at offering various pet-related services through an easy-to-use online platform.",
+    "avatarSvg": "/yk.png",
+    "social": {
+      "github": "https://github.com/yashpatel-it/",
+      "linkedin": "https://www.linkedin.com/in/yash-patel06/",
+      "instagram": "",
+      "email": "yashpateel261006@gmail.com",
+      "phone": "+91 9023655916"
+    }
+  },
+  "skills": {
+    "categories": [
+      { "name": "Languages", "items": ["Python", "Java", "TypeScript", "JavaScript"] },
+      { "name": "Frontend", "items": ["React", "Tailwind CSS", "HTML5", "CSS3"] },
+      { "name": "Backend", "items": ["Node.js", "REST APIs"] },
+      { "name": "AI/ML", "items": ["Machine Learning", "LLM Integration"] },
+      { "name": "Tools", "items": ["Git", "VS Code", "Vite"] }
+    ]
+  },
+  "experience": [],
+  "projects": [
+    {
+      "id": "01",
+      "title": "Pet Care System",
+      "subtitle": "Full-stack pet services platform",
+      "description": "A fully functional project developed during my internship, aimed at offering various pet-related services through an easy-to-use online platform.",
+      "stack": ["React", "TypeScript"],
+      "role": "Project Leader",
+      "year": "2024",
+      "link": "",
+      "image": "/petcare.png",
+      "highlight": true
+    },
+    {
+      "id": "02",
+      "title": "Passport Photo Generator",
+      "subtitle": "Full-stack pet services platform",
+      "description": "A fully functional project developed during my internship, aimed at offering various photo making services through an easy-to-use online platform.",
+      "stack": ["React", "TypeScript"],
+      "role": "Project Developer",
+      "year": "2025",
+      "link": "",
+      "image": "/passpoert_generator.png",
+      "highlight": true
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech",
+      "institution": "Gujarat University",
+      "period": "2022 – 2026",
+      "location": "Gujarat, India"
+    }
+  ],
+  "testimonials": []
+}

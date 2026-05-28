@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  background-color: #0c0c0c;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  background-color: #0c0c0c;
+  color: #e5e5e5;
+  overflow-x: hidden;
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+p, span, li { word-break: normal; overflow-wrap: normal; }
+
+.hero-heading {
+  background: linear-gradient(180deg, #646973 0%, #bbccd7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.accent-gradient { background: linear-gradient(135deg, #a855f7, #ec4899, #f97316); }
+
+.accent-gradient-text {
+  background: linear-gradient(135deg, #a855f7, #ec4899, #f97316);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.section-number {
+  background: linear-gradient(180deg, #646973 0%, #bbccd7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.marquee-track { animation: marquee 30s linear infinite; }
+.marquee-track:hover { animation-play-state: paused; }
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track { animation: none; overflow-x: auto; scroll-snap-type: x mandatory; }
+  .marquee-card { scroll-snap-align: start; }
+}
+
+section { scroll-margin-top: 80px; }
